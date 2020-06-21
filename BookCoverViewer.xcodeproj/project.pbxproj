@@ -13,6 +13,9 @@
 		E760B6DB249D7649003BC47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760B6D9249D7649003BC47E /* Main.storyboard */; };
 		E760B6DD249D764A003BC47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E760B6DC249D764A003BC47E /* Assets.xcassets */; };
 		E760B6E0249D764A003BC47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760B6DE249D764A003BC47E /* LaunchScreen.storyboard */; };
+		E760B6E8249D7673003BC47E /* API_Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760B6E7249D7673003BC47E /* API_Management.swift */; };
+		E760B6EA249D8C4B003BC47E /* GoogleBooksAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760B6E9249D8C4B003BC47E /* GoogleBooksAPIModel.swift */; };
+		E760B6EC249FB8EE003BC47E /* RakutenBooksAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760B6EB249FB8EE003BC47E /* RakutenBooksAPIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E760B6DC249D764A003BC47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E760B6DF249D764A003BC47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E760B6E1249D764A003BC47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E760B6E7249D7673003BC47E /* API_Management.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Management.swift; sourceTree = "<group>"; };
+		E760B6E9249D8C4B003BC47E /* GoogleBooksAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPIModel.swift; sourceTree = "<group>"; };
+		E760B6EB249FB8EE003BC47E /* RakutenBooksAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenBooksAPIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				E760B6D3249D7649003BC47E /* AppDelegate.swift */,
 				E760B6D5249D7649003BC47E /* SceneDelegate.swift */,
 				E760B6D7249D7649003BC47E /* ViewController.swift */,
+				E760B6E7249D7673003BC47E /* API_Management.swift */,
+				E760B6E9249D8C4B003BC47E /* GoogleBooksAPIModel.swift */,
+				E760B6EB249FB8EE003BC47E /* RakutenBooksAPIModel.swift */,
 				E760B6D9249D7649003BC47E /* Main.storyboard */,
 				E760B6DC249D764A003BC47E /* Assets.xcassets */,
 				E760B6DE249D764A003BC47E /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E760B6D8249D7649003BC47E /* ViewController.swift in Sources */,
+				E760B6E8249D7673003BC47E /* API_Management.swift in Sources */,
 				E760B6D4249D7649003BC47E /* AppDelegate.swift in Sources */,
+				E760B6EA249D8C4B003BC47E /* GoogleBooksAPIModel.swift in Sources */,
+				E760B6EC249FB8EE003BC47E /* RakutenBooksAPIModel.swift in Sources */,
 				E760B6D6249D7649003BC47E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
