@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .lightGray
         
+        print("AddTest")
+        
         googleBookDataManagement = BookDataManagement_Google()
         rakutenBooksDataManagement = BooksDataManagement_Rakuten()
         booksDataSource = BooksDataSource()
